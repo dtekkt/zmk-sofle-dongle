@@ -72,6 +72,21 @@
             bindings = <&mo 3>;
             key-positions = <57 59>;
         };
+
+        Umlaut_A {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <27 63>;
+        };
+
+        Umlaut_U {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <63 21>;
+        };
+
+        Umlaut_O {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <63 23>;
+        };
     };
 
     keymap {
