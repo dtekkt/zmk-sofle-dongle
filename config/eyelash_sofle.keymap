@@ -86,11 +86,11 @@
 
         NUMNAV {
             bindings = <
-&trans      &kp KP_CLEAR     &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp KP_DIVIDE    &kp KP_MULTIPLY    &mmv MOVE_UP     &trans     &trans    &trans      &trans     &trans     &trans
-&trans      &kp DE_DOT       &kp KP_NUMBER_7          &kp KP_NUMBER_8           &kp KP_NUMBER_9  &kp KP_SUBTRACT    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP      &kp END    &mkp MCLK  &trans
-&trans      &kp KP_COMMA     &kp KP_NUMBER_4          &kp KP_NUMBER_5           &kp KP_NUMBER_6  &kp KP_PLUS        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &mkp LCLK  &mkp RCLK
-&trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1          &kp KP_NUMBER_2           &kp KP_NUMBER_3  &kp KP_ENTER       &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &trans     &trans     &trans
-&kp C_MUTE  &trans           &trans                   &trans                    &trans           &trans             &mkp LCLK        &trans     &trans    &trans      &trans     &trans
+&trans      &kp DELETE       &kp LS(DE_N8)    &kp LS(DE_N9)    &kp KP_DIVIDE    &kp KP_MULTIPLY    &mmv MOVE_UP     &trans     &trans    &trans      &trans     &trans     &trans
+&trans      &kp DE_DOT       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP      &kp END    &mkp MCLK  &trans
+&trans      &kp DE_COMMA     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &mkp LCLK  &mkp RCLK
+&trans      &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER       &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &trans     &trans     &trans
+&kp C_MUTE  &trans           &trans           &trans           &trans           &trans             &mkp LCLK        &trans     &trans    &trans      &trans     &trans
             >;
 
             display-name = "NUMNAV";
