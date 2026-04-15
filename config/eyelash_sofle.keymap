@@ -76,16 +76,19 @@
         Umlaut_A {
             bindings = <&kp DE_A_UMLAUT>;
             key-positions = <27 63>;
+            layers = <0>;
         };
 
         Umlaut_U {
             bindings = <&kp DE_U_UMLAUT>;
             key-positions = <63 21>;
+            layers = <0>;
         };
 
         Umlaut_O {
             bindings = <&kp DE_O_UMLAUT>;
             key-positions = <63 23>;
+            layers = <0>;
         };
     };
 
@@ -94,9 +97,9 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp DE_N1  &kp DE_N2     &kp DE_N3     &kp DE_N4     &kp DE_N5    &kp UP_ARROW     &kp DE_N6  &kp DE_N7     &kp DE_N8     &kp DE_N9      &kp DE_N0     &kp DELETE
-&kp TAB     &kp DE_Q   &kp DE_W      &kp DE_E      &kp DE_R      &kp DE_T     &kp DOWN_ARROW   &kp DE_Z   &kp DE_U      &kp DE_I      &kp DE_O       &kp DE_P      &kp DE_SZ
-&kp CAPS    &kp DE_A   &kp DE_S      &kp DE_D      &kp DE_F      &kp DE_G     &kp LEFT_ARROW   &kp DE_H   &kp DE_J      &kp DE_K      &kp DE_L       &kp DE_PLUS   &kp DE_HASH
+&kp ESC     &kp DE_N1  &kp DE_N2     &kp DE_N3     &kp DE_N4     &kp DE_N5    &kp UP_ARROW     &kp DE_N6  &kp DE_N7     &kp DE_N8     &kp DE_N9      &kp DE_N0     &mt DELETE DE_SZ
+&kp TAB     &kp DE_Q   &kp DE_W      &kp DE_E      &kp DE_R      &kp DE_T     &kp DOWN_ARROW   &kp DE_Z   &kp DE_U      &kp DE_I      &kp DE_O       &kp DE_P      &kp DE_PLUS
+&kp CAPS    &kp DE_A   &kp DE_S      &kp DE_D      &kp DE_F      &kp DE_G     &kp LEFT_ARROW   &kp DE_H   &kp DE_J      &kp DE_K      &kp DE_L       &kp DE_HASH   &kp DE_ACUTE
 &kp LSHFT   &kp DE_Y   &kp DE_X      &kp DE_C      &kp DE_V      &kp DE_B     &kp RIGHT_ARROW  &kp N      &kp M         &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS  &kp RSHIFT
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DE_SPACE  &mo 1        &kp ENTER        &mo 2      &kp DE_SPACE  &kp ENTER     &kp BACKSPACE  &kp RCTRL
             >;
