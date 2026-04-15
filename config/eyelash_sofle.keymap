@@ -107,6 +107,7 @@
 &trans   &trans           &trans  &trans  &trans  &mo 3     &mkp LCLK        &trans            &trans           &trans            &trans           &trans
             >;
 
+            display-name = "MEDIA";
             sensor-bindings = <&scroll_encoder>;
             label = "MEDIA";
         };
@@ -120,6 +121,7 @@
 &trans        &trans        &trans        &trans        &trans        &trans        &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
+            display-name = "CONF";
             label = "CONF";
         };
     };
