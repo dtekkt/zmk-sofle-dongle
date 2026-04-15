@@ -65,6 +65,15 @@
     behaviors {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        LAYER3 {
+            bindings = <&mo 3>;
+            key-positions = <57 59>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
