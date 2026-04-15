@@ -67,9 +67,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   NUMNAV:
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP CLEAR
-  - KP LEFT PARENTHESIS
-  - KP RIGHT PARENTHESIS
+  - $$mdi:backspace-reverse-outline$$
+  - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
+  - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 9 AND LEFT PARENTHESIS))
   - KP DIVIDE
   - KP MULTIPLY
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -93,7 +93,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - KP COMMA
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
   - KP 4
   - KP 5
   - KP 6
