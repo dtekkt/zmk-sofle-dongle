@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - MEDIA
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SPACEBAR))
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   NUMNAV:
   - {t: '$$mdi:transfer$$', type: trans}
