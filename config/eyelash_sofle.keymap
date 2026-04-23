@@ -95,7 +95,7 @@
 
             display-name = "FNNAV";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            label = "NUMNAV";
+            label = "FNNAV";
         };
 
         NUM {
@@ -109,7 +109,7 @@
 
             display-name = "NUM";
             sensor-bindings = <&scroll_encoder>;
-            label = "MEDIA";
+            label = "NUM";
         };
 
         CONF {
