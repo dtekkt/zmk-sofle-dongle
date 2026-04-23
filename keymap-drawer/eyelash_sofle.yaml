@@ -58,14 +58,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SPACEBAR))
-  - NUMNAV
+  - FNNAV
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - MEDIA
+  - NUM
   - {t: '$$mdi:backspace$$', type: backspace}
   - RETURN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  NUMNAV:
+  FNNAV:
   - F12
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  MEDIA:
+  NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK))
