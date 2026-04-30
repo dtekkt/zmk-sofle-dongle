@@ -72,11 +72,11 @@
 
         BASE {
             bindings = <
-&mt ESCAPE DE_CARET  &kp DE_N1  &kp DE_N2     &kp DE_N3     &kp DE_N4     &kp DE_N5    &kp UP     &kp DE_N6  &kp DE_N7      &kp DE_N8     &kp DE_N9      &kp DE_N0                 &mt DELETE DE_SZ
-&kp TAB              &kp DE_Q   &kp DE_W      &kp DE_E      &kp DE_R      &kp DE_T     &kp DOWN   &kp DE_Z   &kp DE_U       &kp DE_I      &kp DE_O       &kp DE_P                  &mt DE_PLUS DE_U_UMLAUT
-&kp DE_LT            &kp DE_A   &kp DE_S      &kp DE_D      &kp DE_F      &kp DE_G     &kp LEFT   &kp DE_H   &kp DE_J       &kp DE_K      &kp DE_L       &mt DE_ACUTE DE_O_UMLAUT  &mt DE_HASH DE_A_UMLAUT
-&kp LSHFT            &kp DE_Y   &kp DE_X      &kp DE_C      &kp DE_V      &kp DE_B     &kp RIGHT  &kp N      &kp M          &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS              &kp RSHIFT
-&kp C_MUTE           &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DE_SPACE  &mo 1        &kp ENTER  &mo 2      &kp BACKSPACE  &kp RETURN    &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&mt ESCAPE DE_CARET  &kp DE_N1  &kp DE_N2     &kp DE_N3     &kp DE_N4     &kp DE_N5    &kp C_VOL_UP      &kp DE_N6  &kp DE_N7      &kp DE_N8     &kp DE_N9      &kp DE_N0                 &mt DELETE DE_SZ
+&kp TAB              &kp DE_Q   &kp DE_W      &kp DE_E      &kp DE_R      &kp DE_T     &kp C_VOL_DN      &kp DE_Z   &kp DE_U       &kp DE_I      &kp DE_O       &kp DE_P                  &mt DE_PLUS DE_U_UMLAUT
+&kp DE_LT            &kp DE_A   &kp DE_S      &kp DE_D      &kp DE_F      &kp DE_G     &kp C_PREV        &kp DE_H   &kp DE_J       &kp DE_K      &kp DE_L       &mt DE_ACUTE DE_O_UMLAUT  &mt DE_HASH DE_A_UMLAUT
+&kp LSHFT            &kp DE_Y   &kp DE_X      &kp DE_C      &kp DE_V      &kp DE_B     &kp C_NEXT        &kp N      &kp M          &kp DE_COMMA  &kp DE_PERIOD  &kp DE_MINUS              &kp RSHIFT
+&kp C_MUTE           &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp DE_SPACE  &mo 1        &kp C_PLAY_PAUSE  &mo 2      &kp BACKSPACE  &kp RETURN    &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&scroll_encoder>;
