@@ -11,7 +11,7 @@ manifest:
     - name: infely                             # new entry
       url-base: https://github.com/infely      # new entry
   projects:
-    - name: mario-peripheral-animation
+    - name: hammerbeam-slideshow
       remote: gpeye
       revision: main 
     - name: zmk
