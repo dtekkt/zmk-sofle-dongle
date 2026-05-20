@@ -60,9 +60,9 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SPACEBAR))
   - FNNAV
   - PLAY PAUSE
-  - NUM
+  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SPACEBAR))
   - {t: '$$mdi:backspace$$', type: backspace}
-  - RETURN
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   FNNAV:
